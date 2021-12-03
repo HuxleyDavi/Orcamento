@@ -1072,8 +1072,6 @@ footer{
 
 	.input-group textarea{
 		padding-top: .8rem;
-		max-width: 25rem;
-		max-height: 3rem;
 	}
 
 	.field:focus ~ lable{
