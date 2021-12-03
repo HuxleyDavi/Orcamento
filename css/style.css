@@ -1048,6 +1048,11 @@ footer{
 		font-size: 2rem;
 	}
 
+	.input-group{
+		position: relative;
+		left: 4rem;
+	}
+
 	.field{
 		border-bottom: 2px dashed #636363;
 		font-size: .9rem;
@@ -1055,11 +1060,6 @@ footer{
 
 	.field-label{
 		font-size: .8rem;
-	}
-
-	.input-group{
-		position: relative;
-		left: 4rem;
 	}
 
 	.btn-submit{
@@ -1071,6 +1071,8 @@ footer{
 
 	.input-group textarea{
 		padding-top: .8rem;
+		max-width: 25rem;
+		max-height: 3rem;
 	}
 
 	.field:focus ~ lable{
@@ -1079,8 +1081,8 @@ footer{
 	}
 
  .orcamento-wrapper{
- 	width: 80%;
- }
+	 	width: 80%;
+	}
 
 	.sessao-orcamento h1{
 		font-size: 1.8rem;
