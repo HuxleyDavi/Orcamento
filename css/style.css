@@ -1050,6 +1050,7 @@ footer{
 	}
 
 	.field{
+		width: 1rem;
 		border-bottom: 2px dashed #636363;
 		font-size: .9rem;
 	}
