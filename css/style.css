@@ -984,7 +984,7 @@ footer{
 	}
 
 	.sessao-projetos{
-		height: 110vh;
+		height: 100vh;
 		margin-top: 40rem;
 	}
 
@@ -995,9 +995,9 @@ footer{
 	}
 
 	.card{
-		margin-top: 1rem;
-		width: 50%;
-		height: 14rem;
+		margin-top: 0.8rem;
+		width: 80%;
+		height: 11rem;
 	}
 
 	.card-info{
@@ -1007,7 +1007,7 @@ footer{
 
 	.card:hover .card-info{
 		bottom: -1rem; 
-		padding: 1.8rem; 
+		padding: 1.5rem; 
 	}
 
 	.card-info h2{
@@ -1031,6 +1031,10 @@ footer{
 		margin-bottom: 1rem;
 	}
 
+	.sessao-contato{
+		margin-top: 5rem;
+	}
+
 	.contato-wrapper{
 		width: 80%;
 	}
@@ -1051,7 +1055,7 @@ footer{
 
 	.input-group{
 		position: relative;
-		left: 3.5rem;
+		left: 4.5rem;
 		overflow: hidden;
 	}
 
