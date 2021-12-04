@@ -1054,8 +1054,9 @@ footer{
 	}
 
 	.input-group{
+		width: 170px;
 		position: relative;
-		left: 4.5rem;
+		/*left: 4.5rem;*/
 		overflow: hidden;
 	}
 
@@ -1065,7 +1066,7 @@ footer{
 	}
 
 	.field-label{
-		font-size: .8rem;
+		font-size: .9rem;
 	}
 
 	.btn-submit{
@@ -1077,18 +1078,24 @@ footer{
 
 	.input-group textarea{
 		padding-top: .8rem;
-		max-width: 25rem;
+		max-width: 20rem;
 		max-height: 3rem;
+	}
+
+	.input-group textarea:focus{
+		/*overflow: hidden;*/
+		font-size: 0.6rem;
 	}
 
 	.field:focus ~ lable{
 		top: 0;
-		font-size: 0.7rem;
-		overflow: hidden;
+		font-size: .8rem;
+		/*overflow: hidden;*/
 	}
 
 	.field:focus{
-		overflow: hidden;
+		font-size: .7rem;
+		max-width: 170px;
 		border-bottom: 1px solid;
 	}
 
