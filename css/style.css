@@ -984,7 +984,7 @@ footer{
 	}
 
 	.sessao-projetos{
-		height: 100vh;
+		height: 100%;
 		margin-top: 40rem;
 	}
 
@@ -1030,10 +1030,6 @@ footer{
 		width: 100%;
 		margin-bottom: 1rem;
 	}
-
-	/*.sessao-contato{
-		margin-top: 5rem;
-	}*/
 
 	.contato-wrapper{
 		width: 80%;
