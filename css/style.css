@@ -1040,8 +1040,8 @@ footer{
 	}
 
 	.contato-right{
-		width: 40%;
 		padding: 3rem;
+		overflow: hidden;
 	}
 
 	.sessao-contato h1{
@@ -1050,7 +1050,8 @@ footer{
 
 	.input-group{
 		position: relative;
-		left: 4rem;
+		left: 3.5rem;
+		overflow: hidden;
 	}
 
 	.field{
@@ -1078,6 +1079,12 @@ footer{
 	.field:focus ~ lable{
 		top: 0;
 		font-size: 0.7rem;
+		overflow: hidden;
+	}
+
+	.field:focus{
+		overflow: hidden;
+		border-bottom: 1px solid;
 	}
 
  .orcamento-wrapper{
