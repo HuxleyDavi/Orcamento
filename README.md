@@ -1,2 +1,2 @@
-# Teste-Upar-na-Web
-Apenas um repositório de test
+# HS-Orçamento
+Apenas um repositório de orçamentos
