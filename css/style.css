@@ -7,6 +7,7 @@
 	padding: 0;
 	list-style: none;
 	text-decoration: none;
+	font-family: "Helvetica";
 }
 
 html{
@@ -68,7 +69,7 @@ html{
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	background-color: #a044ff;
+	background-color: rgb(41, 41, 41);
 	color: #fff;
 	font-family: var(--font-action);
 	opacity: 0;
@@ -78,7 +79,7 @@ html{
 .hamburguer span::before{
 	content: "";
 	position: absolute;
-	border-right: .5rem solid #a044ff;
+	border-right: .5rem solid rgb(41, 41, 41);
 	border-top: .5rem solid transparent;
 	border-left: .5rem solid transparent;
 	border-bottom: .5rem solid transparent;
@@ -153,9 +154,9 @@ header{
 	color: white;
 	text-transform: uppercase;
 	letter-spacing: .1rem;
-	background: #6a3093;
+	background: rgb(41, 41, 41);
 	background: -webkit-linear-gradient(to right, #a044ff, #6a3093);
-	background: linear-gradient(to right, #a044ff, #6a3093);
+	background: linear-gradient(to right, rgb(41, 41, 41), rgb(47, 47, 47));
 	padding: 1rem 3rem;
 	border: 0;
 	border-radius: 5px;
@@ -204,12 +205,12 @@ header{
 .menu-link{
 	font-family: var(--font-action);
 	font-size: 2rem;
-	color: #555;
+	color: rgb(65, 65, 65);
 	transition: color 1s;
 }
 
 .menu-link:hover{
-	color: #6a3093;
+	color: rgb(30, 30, 30);
 }
 
 .social-media{
@@ -221,7 +222,7 @@ header{
 }
 
 .social-media i{
-	background-color: #6a3093;;
+	background-color: rgb(40, 40, 40);
 	color: rgba(255, 255, 255, 1);
 	height: 2.5rem;
 	width: 2.5rem;
@@ -234,13 +235,14 @@ header{
 }
 
 .social-media i:hover{
-	background-color: #a044ff;
+	background-color: rgb(65, 65, 65);
 }
 
 .btn{
-	background: #6a3093;
+	cursor: pointer;
+	background: rgb(41, 41, 41);
 	background: -webkit-linear-gradient(to right, #a044ff, #6a3093);
-	background: linear-gradient(to right, #a044ff, #6a3093);
+	background: linear-gradient(to right, rgb(41, 41, 41), rgb(47, 47, 47));
 	font-family: var(--font-action);
 	color: #eee;
 	border: none;
@@ -368,9 +370,9 @@ header{
 	position: absolute;
 	top: -2.5rem;
 	left: 2rem;
-	background: #6a3093;
+	background: rgb(41, 41, 41);
 	background: -webkit-linear-gradient(to right, #a044ff, #6a3093);
-	background: linear-gradient(to right, #a044ff, #6a3093);
+	background: linear-gradient(to right, rgb(41, 41, 41), rgb(47, 47, 47));
 	padding: 0 3rem;
 	color: white;
 	font-family: var(--font-primary);
@@ -454,9 +456,9 @@ footer{
 	bottom: 3rem;
 	width: 3rem;
 	height: 3rem;
-	background: #6a3093;
+	background: rgb(41, 41, 41);
 	background: -webkit-linear-gradient(to right, #a044ff, #6a3093);
-	background: linear-gradient(to right, #a044ff, #6a3093);
+	background: linear-gradient(to right, rgb(41, 41, 41), rgb(47, 47, 47));
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -491,23 +493,6 @@ footer{
 		margin: 7rem 2rem auto 2rem;
 	}
 
-	.conhecimentos{
-		row-gap: 1.4rem;
-	}
-
-	.sessao-projetos{
-		margin-top: 1rem;
-	}
-
-	.card{
-		width: 17rem;
-		height: 24rem;
-	}
-
-	.card:hover .card-info{
-		bottom: 1.5rem;
-	}
-
 	.footer-content{
 		width: 71%;
 	}
@@ -534,68 +519,6 @@ footer{
 
 	.sessao-header h1{
 		margin-bottom: 3rem;
-	}
-
-	.conhecimento:nth-child(2) h3{/*CSS*/
-		padding-left: .9rem;
-		padding-top: 3rem;
-	}
-
-	.conhecimento:nth-child(5) h3{/*BOOTSTRAP*/
-		padding-left: .9rem;
-		padding-top: 3rem;
-	}
-
-	.conhecimento:nth-child(3) h3{/*DESIGN*/
-		padding-left: .7rem;
-		padding-top: 6rem;
-	}
-
-	.conhecimento:nth-child(6) h3{/*GIT E GITHUB*/
-		padding-left: .9rem;
-		padding-top: 5.5rem;
-	}
-
-	.conhecimento:nth-child(2) i{/*CSS*/
-		padding-left: .9rem;
-		padding-top: 2.7rem;
-	}
-
-	.conhecimento:nth-child(5) i{/*BOOTSTRAP*/
-		padding-left: .9rem;
-		padding-top: 2.7rem;
-	}
-
-	.conhecimento:nth-child(3) i{/*DESIGN*/
-		padding-left: .7rem;
-		padding-top: 6rem;
-	}
-
-	.conhecimento:nth-child(6) i{/*GIT E GITHUB*/
-		padding-left: .9rem;
-		padding-top: 5.5rem;
-	}
-
-	.sessao-projetos{
-		margin-top: 10rem;
-	}
-
-	.card{
-		width: 14rem;
-		height: 22rem;
-	}
-
-	.card:hover .card-info{
-		bottom: .1rem;
-	}
-
-	.card-info h2{
-		font-size: 1.5rem;
-	}
-
-	.card-info button{
-		width: 7.2rem;
-		height: 1.9rem;
 	}
 
 	.contato-left{
@@ -671,57 +594,6 @@ footer{
 		margin-bottom: 2rem;
 	}
 
-	.conhecimento-header i{
-		font-size: 2.2rem;
-	}
-
-	.conhecimento:nth-child(2) h3{/*CSS*/
-		padding-top: 4rem;
-	}
-
-	.conhecimento:nth-child(5) h3{/*BOOTSTRAP*/
-		padding-top: 4rem;
-	}
-
-	.conhecimento:nth-child(3) h3{/*DESIGN*/
-		padding-top: 8rem;
-	}
-
-	.conhecimento:nth-child(6) h3{/*GIT E GITHUB*/
-		padding-top: 7.5rem;
-	}
-
-	.conhecimento:nth-child(2) i{/*CSS*/
-		padding-top: 4rem;
-	}
-
-	.conhecimento:nth-child(5) i{/*BOOTSTRAP*/
-		padding-top: 4rem;
-	}
-
-	.conhecimento:nth-child(3) i{/*DESIGN*/
-		padding-top: 8rem;
-	}
-
-	.conhecimento:nth-child(6) i{/*GIT E GITHUB*/
-		padding-top: 7.5rem;
-	}
-
-	.conhecimento-text{
-		font-family: var(--font-secundary);
-		margin-top: 0.8rem;
-	}
-
-	.conhecimentos-img-wrapper{
-		grid-column: 7 / 11;
-  	grid-row: 3;
-	}
-
-	.sessao-projetos{
-		margin-top: 14rem;
-	}
-}
-
 @media screen and (max-width: 500px){
 	.banner h1{
 		font-size: 1.2rem;
@@ -740,135 +612,7 @@ footer{
 		font-size: 1.8rem;
 		margin-bottom: 2rem;
 	}
-
-	.conhecimentos{
-		margin-right: 5rem;
-	}
-
-	.conhecimento-header i{
-		font-size: 1.8rem;
-	}
-
-	.conhecimento-header h3{
-		font-size: 1.5rem;
-	}
-
-	.conhecimento:nth-child(1) h3{/*HTML*/
-		grid-column: 11 / 14;
-		grid-row: 2 / 3;
-	}
-
-	.conhecimento:nth-child(2) h3{/*CSS*/
-		padding-top: 15rem;
-	}
-
-	.conhecimento:nth-child(4) h3{/*JAVASCRIPT*/
-		grid-column: 11 / 14;
-		grid-row: 1 / 3;
-	}
-
-	.conhecimento:nth-child(5) h3{/*BOOTSTRAP*/
-		padding-top: 15rem;
-	}
-
-	.conhecimento:nth-child(3) h3{/*DESIGN*/
-		padding-top: 30rem;
-	}
-
-	.conhecimento:nth-child(6) h3{/*GIT E GITHUB*/
-		padding-top: 29.5rem;
-	}
-
-	.conhecimento:nth-child(1) i{/*HTML*/
-		grid-column: 11 / 14;
-		grid-row: 1 / 3;
-	}
-
-	.conhecimento:nth-child(2) i{/*CSS*/
-		padding-top: 15rem;
-	}
-
-	.conhecimento:nth-child(4) i{/*JAVASCRIPT*/
-		grid-column: 11 / 14;
-		grid-row: 1 / 3;
-	}
-
-	.conhecimento:nth-child(5) i{/*BOOTSTRAP*/
-		padding-top: 15rem;
-	}
-
-	.conhecimento:nth-child(3) i{/*DESIGN*/
-		padding-top: 30rem;
-	}
-
-	.conhecimento:nth-child(6) i{/*GIT E GITHUB*/
-		padding-top: 29.5rem;
-	}
-
-	.conhecimento-text{
-		font-size: .8rem;
-		margin-top: 0.4rem;
-		margin-left: 2rem;
-	}
-
-	.conhecimentos-img-wrapper{
-    grid-column: 9 / -4;
-    grid-row: 7 / -1
-	}
-
-	.conhecimentos-img-wrapper img{
-		width: 100%;
-		height: 100%;
-	}
-
-	.sessao-projetos{
-		height: 100%;
-		margin-top: 40rem;
-	}
-
-	.projetos{
-		flex-direction: column;
-		justify-content: center;
-		align-items: center;
-	}
-
-	.card{
-		margin-top: 0.8rem;
-		width: 80%;
-		height: 11rem;
-	}
-
-	.card-info{
-		bottom: -.5rem;
-		padding: 2.3rem;
-	}
-
-	.card:hover .card-info{
-		bottom: -1rem; 
-		padding: 1.5rem; 
-	}
-
-	.card-info h2{
-		font-size: 1.2rem;
-	}
-
-	.card-info h3{
-		font-size: 1rem;
-	}
-
-	.card-info button{
-		font-size: 0.7rem;
-		width: 6rem;
-		height: 1rem;
-	}
-
-	.card-info p{
-		text-align: left;
-		font-size: .8rem;
-		width: 100%;
-		margin-bottom: 1rem;
-	}
-
+	
 	.contato-wrapper{
 		width: 80%;
 	}
